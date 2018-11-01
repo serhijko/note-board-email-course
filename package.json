@@ -11,6 +11,9 @@
   "license": "ISC",
   "dependencies": {
     "dotenv": "^6.1.0",
-    "hapi": "^17.6.0"
+    "hapi": "^17.6.0",
+    "moment": "^2.22.2",
+    "sequelize": "^4.41.0",
+    "sqlite3": "^4.0.3"
   }
 }

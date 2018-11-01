@@ -1,6 +1,7 @@
-const Routes = require('./lib/routes');
 const Hapi = require('hapi');
 const Settings = require('./settings');
+const Routes = require('./lib/routes');
+
 const server = new Hapi.Server({ port: Settings.port });
 
 server.route(Routes);
